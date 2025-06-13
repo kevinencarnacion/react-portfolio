@@ -1,0 +1,25 @@
+{
+    "autorun": true,
+    "terminals": [
+        {
+            "name": "RUN DEV",
+            "open": true,
+            "focus": false,
+            "execute": true,
+            "commands": [
+                "cd src",
+                "cd app",
+                "npm run dev"
+            ]
+        },
+        {
+            "name": "Src/App",
+            "open": true,
+            "focus": true,
+            "commands": [
+                "cd src",
+                "cd app"
+            ]
+        }
+    ]
+}
